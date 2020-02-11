@@ -1,4 +1,4 @@
-#talking_clock v1.0
+#talking_clock v1.1
 
 print("Talking Clock")
 
@@ -93,7 +93,7 @@ minute_dict = {
     }
 
 hour = int(input("Enter the hour (0-23):"))
-minute = int(input("Enter the hour (0-59):"))
+minute = int(input("Enter the minute (0-59):"))
 
 if hour < 12:
     print("It's " + str(hour_dict[str(hour)]) + " " + str(minute_dict[str(minute)]) + " AM")
