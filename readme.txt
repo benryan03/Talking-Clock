@@ -1,0 +1,6 @@
+v1.0
+Talking Clock is a program that accepts input in the form of a numeric 24-hour timestamp.
+The numeric timestamp is converted to a written-out format, and is output.
+
+v1.1
+Fixed a bug where the second input prompt said "hour" instead of "minute"
